@@ -22,6 +22,7 @@ def main(): Unit =
   println(s"incremented = $incremented")
   println(s"transformed1 = $transformed1")
   println(s"filtered = $filtered")
+  println(s"alist.head = ${alist.head}, alist.last = ${alist.last}")
 
   val chessboard = for {
     num <- List(1, 2, 3)
