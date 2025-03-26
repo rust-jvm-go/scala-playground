@@ -5,5 +5,8 @@ ThisBuild / scalaVersion := "3.6.4"
 lazy val root = (project in file("."))
   .settings(
     name := "scala-playground",
-    libraryDependencies += "org.typelevel" %% "cats-effect" % "3.5.7"
+    libraryDependencies ++= Seq(
+      "org.scalatest" %% "scalatest" % "3.2.19" % Test,
+      "org.typelevel" %% "cats-effect" % "3.6.0"
+    )
   )

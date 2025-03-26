@@ -1,5 +1,8 @@
 import cats.effect.{IO, IOApp, ExitCode}
 
+/**
+ * https://www.baeldung.com/scala/functional-programming
+ */
 object Currying extends IOApp {
 
   def run(args: List[String]): IO[ExitCode] =
